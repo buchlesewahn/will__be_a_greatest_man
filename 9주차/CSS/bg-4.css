@@ -1,0 +1,18 @@
+#container{
+  width: 1100px;
+  margin: 50px auto;
+}
+.box{
+  float: left;
+  border: 1px solid #222;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  background: url(../images/bg4.jpg) no-repeat left top;
+}
+#bg1{background-size: auto;}
+#bg2{background-size: 200px;}
+#bg3{background-size: 50%;}
+#bg4{background-size: 100% 100%;}
+#bg5{background-size: contain;}
+#bg6{background-size: cover;}
