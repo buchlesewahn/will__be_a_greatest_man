@@ -39,12 +39,12 @@
 
   <script>
     let now = new Date();
-    let firstday = new Date("2006-07-13");
-    let tonow = now.getTime();
-    let tofirst = firstday.getTime();
-    let passedtime = tonow - tofirst;
-    passedtime = Math.round(passedtime/(1000*60*60*24));
-    document.querySelector('#result').innertext = passedtime;
+    let firstDay = new Date("2006-07-13");
+    let toNow = now.getTime();
+    let toFirst = firstDay.getTime();
+    let passedTime = toNow - toFirst;
+    passedTime = Math.round(passedTime/(1000*60*60*24));
+    document.querySelector('#result').innerText = passedTime;
   </script>
 </body>
 </html>

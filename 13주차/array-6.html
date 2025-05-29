@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    letstudy= ['html', 'css', 'javascript', 'jquery', 'react', 'nodejs'];
+    // 인수가1개일경우
+    letjs= study.splice(2);
+    document.write(`반환된배열: ${js}<br>`);
+    document.write(`변경된배열: ${study}`);
+    document.write(`<hr>`);// 인수가2개일경우
+    letjquery= js.splice(1,1);
+    document.write(`반환된배열: ${jquery}<br>`);
+    document.write(`변경된배열: ${js}`);
+    document.write(`<hr>`);// 인수가3개이상일경우
+    letmodernJs= js.splice(1, 0, 'typescript');
+    document.write(`반환된배열: ${modernJs}<br>`);
+    document.write(`변경된배열: ${js}`);
+    </script>
+</body>
+</html>
