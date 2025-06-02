@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #4CAF50;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.8em;
+  color: #777;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.container p {
+  margin: 10px 0;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+}
+
+.container footer {
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #555;
+}
+.container a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.container a:hover {
+  text-decoration: underline;
+}
+.container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.container ul li {
+  margin: 5px 0;
+}
+.container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+.container table, .container th, .container td {
+  border: 1px solid #ddd;
+}
+.container th, .container td {
+  padding: 8px;
+  text-align: left;
+}
+.container th {
+  background-color: #f2f2f2;
+}
+.container .highlight {
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196F3;
+  padding: 10px;
+  margin: 20px 0;
+}
+.container .alert {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.container .success {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 10px;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.container .warning {
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 10px;
+  border: 1px solid #ffeeba;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.container .info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  padding: 10px;
+  border: 1px solid #bee5eb;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.container .code-block {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+}
