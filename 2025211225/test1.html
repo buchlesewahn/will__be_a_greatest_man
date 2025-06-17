@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>수를 입력받아 5의 배수인지 아닌지 알아보기</title>
+</head>
+<body>
+  <script>
+    // 여기서 부터 코드 작성하시오.
+    const number = parseInt(prompt("숫자를 입력하세요:"));
+    if (isNaN(number)) {
+      alert("유효하지 않은 입력입니다. 숫자를 입력해주세요.");
+    } else {
+      if (number % 5 === 0) {
+        alert(`${number}은(는) 5의 배수입니다.`);
+      } else {
+        alert(`${number}은(는) 5의 배수가 아닙니다.`);
+      }
+    }
+  </script>
+</body>
+</html>
