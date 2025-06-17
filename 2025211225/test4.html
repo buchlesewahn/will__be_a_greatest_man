@@ -32,11 +32,13 @@
   
 	<script>
     // 여기서 부터 코드 작성하시오.
-	
-
-
-
-    
+    let cat = document.querySelector('#cat');
+    cat.addEventListener('mouseover', () => {
+      cat.src = 'images/kitty-2.png';
+    });
+    cat.addEventListener('mouseout', () => {
+      cat.src = 'images/kitty-1.png';
+    });
 	</script>
 </body>
 </html>
